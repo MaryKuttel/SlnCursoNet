@@ -17,5 +17,9 @@ namespace WindowsApp.Entidades.PersonaHerencia
             DNI= dni;
         }
 
+        public override string PropiedadesPersona()
+        {
+            return base.PropiedadesPersona() + "\nDNI: " + DNI;
+        }
     }
 }

@@ -24,6 +24,9 @@ namespace Entidades.Herencia.PersonaHerencia
             Direccion= direccion;
         }
 
-
+        public virtual string PropiedadesPersona()
+        {
+            return "Los datos de la Persona son: " + "\n\nNombre: " + Nombre + "\nApellido: " + Apellido + "\nEmail: " + Email + "\nTelefono: " + Telefono + "\nDireccion: " + Direccion;
+        }
     }
 }

@@ -24,5 +24,10 @@ namespace Entidades.Herencia.EmpresaHerencia
             Telefono = telefono;
             Direccion = direccion;
         }
+
+        public string PropiedadesEmpresa()
+        {
+            return "Los datos de la Empresa son: " + "\n\nNombre: " + Nombre + "\nCUIT: " + CUIT + "\nContacto: " + Contacto + "\nEmail: " + Email + "\nTelefono: " + Telefono + "\nDireccion: " + Direccion;
+        }
     }
 }

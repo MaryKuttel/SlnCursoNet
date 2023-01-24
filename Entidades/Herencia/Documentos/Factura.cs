@@ -20,5 +20,10 @@ namespace WindowsApp.Entidades.Documentos
             Tipo = tipo;
            
         }
+
+        public override string PropiedadesDocumentoComercial()
+        {
+            return base.PropiedadesDocumentoComercial() + "\nTipo: " + Tipo;
+        }
     }
 }

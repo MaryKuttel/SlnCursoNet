@@ -29,5 +29,9 @@ namespace Entidades.Herencia.Documentos
             Total = total;
 
         }
+        public virtual string PropiedadesDocumentoComercial()
+        {
+            return "Los datos del Documento son: " + "\n\nNumero: " + Numero + "\nFecha: " + Fecha + "\nCliente: " + Cliente + "\nDireccion: " + Direccion + "\nCondicionIVA: " + CondicionIVA + "\nCondicionVenta: " + CondicionVenta + "\nDetalle: " + Detalle + "\nTotal: " + Total;
+        }
     }
 }
